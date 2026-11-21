@@ -1,0 +1,23 @@
+{
+  "name": "combate-calculadora-web-xlsx",
+  "private": true,
+  "version": "0.6.4",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "patch-package": "^8.0.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  }
+}
